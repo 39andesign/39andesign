@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+a {
+  color: #39b3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header, body footer {
+  padding: 24px 0;
+  color: #f0f4f9;
+}
+
+body header {
+  background: #128c7e;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+body footer {
+  background: #1c1e21;
+}
+
+body footer a {
+  color: #fff;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background: #f0f4f9;
+}
+
+body main .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 32px 0;
+}
+
+body main .container .brandCard {
+  text-align: center;
+  margin-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 18px;
+}
+
+body main .container .brandCard .avatar {
+  width: 165px;
+  height: 165px;
+  border-radius: 100%;
+  background: grey;
+  text-align: center;
+}
+
+body main .container .brandCard .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+body main .container .brandCard .title a {
+  color: inherit;
+}
+
+body main .container .brandCard a {
+  color: white;
+}
+
+body main .container .brandCard .CTA {
+  width: 100%;
+  background: #128c7e;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+}
+
+body main .container .hr {
+  background: #F0F4F9;
+  height: 1px;
+  width: 60%;
+  margin: 48px 24px;
+}
+
+body main .container .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 32px;
+  gap: 8px;
+}
+
+body main .container .download span {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
