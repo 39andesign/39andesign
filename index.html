@@ -29,12 +29,18 @@
             />
           </a>
           <div class="title">
-            <a href="https://api.whatsapp.com/send?phone=380636585958">
+            <a
+              href="https://web.whatsapp.com/send?phone=380636585958&text&type=phone_number&app_absent=0"
+              id="label"
+            >
               <h1>39andesign</h1>
               <h5>UI/UX Designer</h5>
             </a>
           </div>
-          <a href="https://web.whatsapp.com/send?phone=380636585958&text&type=phone_number&app_absent=0" id="cta">
+          <a
+            href="https://web.whatsapp.com/send?phone=380636585958&text&type=phone_number&app_absent=0"
+            id="cta"
+          >
             <div class="CTA">Contact me</div>
           </a>
         </div>
@@ -61,6 +67,7 @@
       const isMobile = mobileCheck();
       if (isMobile) {
         document.getElementById("cta").href="whatsapp://send?phone=380636585958";
+        document.getElementById("label").href="whatsapp://send?phone=380636585958";
       }
     </script>
   </body>
